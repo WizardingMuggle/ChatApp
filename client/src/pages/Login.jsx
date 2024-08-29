@@ -86,7 +86,7 @@ export default function Login() {
           />
           <button type="submit" className="btn">Log In</button>
           {/* <button type="submit">Sign in with Google</button> */}
-          <SocialLoginButtons></SocialLoginButtons>
+          {/* <SocialLoginButtons></SocialLoginButtons> */}
           <span>
             Don't have an account ? <Link to="/register">Create One.</Link>
           </span>
