@@ -1,4 +1,4 @@
-export const host = "https://quirk-chat.onrender.com";
+export const host = "https://chatapp-4izn.onrender.com";
 //export const host = "http://localhost:8000";
 // export const host =
 //   process.env.REACT_APP_DEPLOYMENT === "DEV"
