@@ -33,7 +33,7 @@ const server = app.listen(process.env.PORT, () =>
 
 const io = socket( server, {
   cors: {
-    origin: [process.env.ORIGIN, "https://quirk-chat.netlify.app"],
+    origin: [process.env.ORIGIN, "https://chat-app-nine-virid.vercel.app"],
     credentials: true,
   },
 });  
