@@ -93,9 +93,9 @@ export default function Login() {
           <div className="guest">
             <h2>Guest Credentials :</h2>
             <br />
-            <p>Username: JayZ &emsp;&emsp;&emsp; Password: BrooklynKing123</p>
+            <p>Username: JayZ &emsp;&emsp;&emsp; Password: zxcvbnm@123</p>
             {/* <br /> */}
-            <p>Username: KanyeWest &nbsp; Password: FashionGod123</p>
+            <p>Username: KanyeWest &nbsp; Password: asdfghjkl@123</p>
           </div>
         </form>
       </FormContainer>
