@@ -119,7 +119,7 @@ export default function Register() {
             onChange={(e) => handleChange(e)}
           />
           <button type="submit"className="btn">Create User</button>
-          <SocialLoginButtons></SocialLoginButtons>
+          {/* <SocialLoginButtons></SocialLoginButtons> */}
           <span>
             Already have an account ? <Link to="/login">Login.</Link>
           </span>
