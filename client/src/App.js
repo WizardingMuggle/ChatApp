@@ -1,11 +1,11 @@
-import React, {Suspense, lazy} from 'react'
-import {BrowserRouter, Routes, Route} from "react-router-dom"
+import React, { Suspense, lazy } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 const Chat        =   lazy(() =>  import ('./pages/Chat'));
 const Login       =   lazy(() =>  import ('./pages/Login'));
 const Register    =   lazy(() =>  import ('./pages/Register'));
 const SetAvatar   =   lazy(() =>  import ('./pages/SetAvatar'));
-const SetUsername =   lazy(() =>  import ('./pages/SetUsername'))
+const SetUsername =   lazy(() =>  import ('./pages/SetUsername'));
 
 
 function App() {
