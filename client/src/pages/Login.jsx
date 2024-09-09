@@ -57,7 +57,6 @@ export default function Login() {
           process.env.REACT_APP_LOCALHOST_KEY,
           JSON.stringify(data.user)
         );
-
         navigate("/");
       }
     }
@@ -94,7 +93,6 @@ export default function Login() {
             <h2>Guest Credentials :</h2>
             <br />
             <p>Username: JayZ &emsp;&emsp;&emsp; Password: zxcvbnm@123</p>
-            {/* <br /> */}
             <p>Username: KanyeWest &nbsp; Password: asdfghjkl@123</p>
           </div>
         </form>
