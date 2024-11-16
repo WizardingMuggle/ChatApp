@@ -70,6 +70,7 @@ export default function Login() {
             <img src={Logo} alt="logo" />
             <h1>Chat App</h1>
           </div>
+          <label>UserName</label>
           <input
             type="text"
             placeholder="Username"
