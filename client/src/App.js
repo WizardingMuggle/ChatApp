@@ -13,11 +13,11 @@ function App() {
     <BrowserRouter>
     <Suspense fallback={<></>}>
         <Routes>
-          <Route path="/register" element={<Register></Register>} />
-          <Route path="/login" element={<Login></Login>} />
-          <Route path="/setAvatar" element={<SetAvatar></SetAvatar>} />
-          <Route path='/setusername' element={<SetUsername></SetUsername>} />
-          <Route path="/" element={<Chat></Chat>} />
+          <Route path="/register" element={<Register/>} />
+          <Route path="/login" element={<Login/>} />
+          <Route path="/setAvatar" element={<SetAvatar/>} />
+          <Route path='/setusername' element={<SetUsername/>} />
+          <Route path="/" element={<Chat/>} />
         </Routes>
       </Suspense>
     </BrowserRouter>
