@@ -11,7 +11,7 @@ const SetUsername =   lazy(() =>  import ('./pages/SetUsername'));
 function App() {
   return (
     <BrowserRouter>
-    <Suspense fallback={<></>}>
+    <Suspense fallback={<div>Loading...</div>}>
         <Routes>
           <Route path="/register" element={<Register/>} />
           <Route path="/login" element={<Login/>} />
